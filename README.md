@@ -18,8 +18,8 @@ MAMP/MySQL/PHP
 
 [商品課]
 テストアカウント:
-　ユーザID: toyoda
-　パスワード: michiru
+　ユーザID: yamada1234
+　パスワード: taro5678
 
 機能
 　新規商品登録/商品編集・削除/ユーザ管理
