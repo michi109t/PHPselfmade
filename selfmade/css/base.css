@@ -1,0 +1,91 @@
+body{
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans','メイリオ', Meiryo,sans-serif;
+  color:#333;
+}
+header,footer{
+  width:100%;
+  background-color:#d1e8ff;
+  text-align: center;
+}
+
+footer{
+  height:100px;
+  margin-top:100px;
+
+}
+footer p{
+  padding-top:10px;
+}
+nav{
+  margin:20px auto;
+  padding:20px;
+
+}
+nav ul {
+  display:flex;
+  padding:0;
+  width:960px;
+  margin:0 auto;
+}
+nav li{
+  width:25%;
+  text-align: center;
+}
+.wrapper{
+  width:960px;
+  margin:50px auto;
+}
+.wrapper h1{
+  font-size:20px;
+  text-align:center;
+}
+.wrapper p{
+  text-align:center;
+}
+.wrapper img{
+  width:25px;
+  height:25px;
+}
+.wrapper a{
+  font-size:18px;
+}
+#username{
+  cursor:pointer;
+}
+#prof{
+  width:100%;
+  padding:5px;
+  margin-bottom:20px;
+  background-color:#eaf4fc;
+  display:none;
+}
+#menubar{
+  display:flex;
+  margin-bottom:20px;
+}
+#menubar h1{
+  margin:0;
+}
+.center{
+  text-align:center;
+}
+span{
+  color:red;
+}
+.error{
+  width:100%;
+  margin:5px auto;
+  color:red;
+}
+
+iframe{
+
+  margin:0 auto;
+}
+/* レスポンシブ */
+@media screen and (max-width:768px){
+  .wrapper, nav ul{
+    width:100%;
+  }
+
+}

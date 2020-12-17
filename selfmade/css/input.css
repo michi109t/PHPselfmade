@@ -1,0 +1,52 @@
+table{
+  width:70%;
+  margin:0 auto;
+}
+table tr{
+  height:60px;
+
+}
+table th{
+  font-weight:normal;
+  width:30%;
+}
+table input{
+  margin:5px 0;
+}
+.textbox{
+  width:70%;
+}
+.term{
+  width:32%
+}
+select{
+  padding:5px;
+}
+label{
+  margin:0;
+}
+
+ul{
+  display: flex;
+  width:500px;
+  margin:30px auto;
+  padding:0;
+}
+ul li{
+  width:50%;
+}
+
+/* 全ページエラーメッセージ */
+.error{
+  width:70%;
+}
+
+/* 新規ユーザ登録 */
+#role0, #role1, #hidden{
+  display:none;
+}
+
+/* 新規催事登録 */
+.shopHidden{
+  display:none;
+}

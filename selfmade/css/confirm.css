@@ -1,0 +1,16 @@
+table{
+  width:70%;
+  margin:0 auto;
+}
+table th{
+  font-weight:normal;
+  width:30%;
+}
+
+/* 新規商品登録・画像確認 */
+#viewfile img{
+  width:50%;
+  margin:0 auto;
+  height:200px;
+
+}

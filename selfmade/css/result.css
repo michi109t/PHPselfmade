@@ -1,0 +1,97 @@
+table th{
+  border-bottom:2px solid lightgray;
+  padding:5px;
+  font-weight:normal;
+
+}
+table td{
+  border-bottom:1px solid lightgray;
+  padding:5px;
+  font-weight:normal;
+  text-align: left;
+}
+table{
+  width:100%;
+  margin:30px auto;
+}
+ul{
+  padding:0;
+}
+li{
+  margin:5px;
+}
+
+
+/* users.php */
+.edit{
+  width:60%;
+  margin:10px auto;
+}
+.edit table th, .edit table td{
+  border:none;
+}
+.edit th{
+  width:40%;
+}
+.edit input[type="text"],input[type="password"]{
+  width:100%;
+}
+
+
+/* result.php */
+#showfile img{
+  height:200px;
+}
+.hidden{
+  display:none;
+}
+.edit h1{
+  font-size:20px;
+  text-align:center;
+  margin:10px;
+}
+
+/* editevent.php */
+#editEvent{
+  width:60%;
+  margin:0 auto;
+}
+#editEvent table th, #editEvent table td{
+  border:none;
+}
+#eventHidden{
+  display:none;
+}
+
+/* products.php */
+.imglink img{
+  width:30px;
+  /* height:30px; */
+  cursor: pointer;
+}
+.popup{
+  display:none;
+  height:100vh;
+  width:100%;
+  background:rgba(0, 0, 0, 0.5);
+  /* background-color: black;
+  opacity:0.5; */
+  position:fixed;
+  top:0;
+  left:0;
+}
+.content{
+  background:#fff;
+
+  padding: 30px;
+  width:50%;
+  position:fixed;
+  top:20%;
+  left:25%;
+  text-align: center;
+}
+.content img{
+  width:400px;
+  height:auto;
+  margin:10px;
+}

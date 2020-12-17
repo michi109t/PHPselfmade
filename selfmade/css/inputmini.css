@@ -1,0 +1,14 @@
+
+table{
+  width:60%;
+  margin:0 auto;
+}
+table tr{
+  height:40px;
+}
+table th{
+  font-weight:normal;
+}
+.input{
+  width:70%;
+}
